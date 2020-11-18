@@ -73,3 +73,19 @@ Call them from within React functional components and not just any regular JS fu
 ## Tutorial - 4 - useState with object
 
 useState does not automatically merge and update the object. This is a key difference to setState which we come across in class variables. We have to do this manually using the spread operator.
+
+## Tutorial - 5 - useState with array
+
+The useState hook lets us add state to functional components
+
+In classes, the state is always an object
+
+With the useState hook, the stae doesn't have to be an object
+
+the UseState hook returns an array with 2 elements
+
+The first element is the current value of the state and the second element is state setter function
+
+New state value depends on the previous state value> You can pass a function to the setter function
+
+When dealing with objects or arrays, always make sure to spread your state variables and then call the setter function

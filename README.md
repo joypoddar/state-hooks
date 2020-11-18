@@ -95,3 +95,9 @@ When dealing with objects or arrays, always make sure to spread your state varia
 The Effect Hook lets you perform side effects in functional components
 
 It is a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount.
+
+## Tutorial - 7 - useEffect after render
+
+useEffect runs after every render.
+
+useEffect is placed inside the component

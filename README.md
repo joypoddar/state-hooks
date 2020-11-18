@@ -57,3 +57,15 @@ Can't use Hooks inside of a class component
 Hooks don't replace the existing knowledge of React concepts
 
 Instead Hooks provide a more direct API to the React concepts you already know.
+
+## Tutorial - 2 - useState Hook
+
+### Rules of Hooks
+
+**Only Call Hooks at the top level**
+
+Don't call Hooks inside loops, conditions, or nested functions
+
+**Only Call Hooks from React Functions**
+
+Call them from within React functional components and not just any regular JS function.

@@ -89,3 +89,9 @@ The first element is the current value of the state and the second element is st
 New state value depends on the previous state value> You can pass a function to the setter function
 
 When dealing with objects or arrays, always make sure to spread your state variables and then call the setter function
+
+## Tutorial - 6 - useEffect Hook
+
+The Effect Hook lets you perform side effects in functional components
+
+It is a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount.

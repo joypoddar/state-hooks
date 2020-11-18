@@ -69,3 +69,7 @@ Don't call Hooks inside loops, conditions, or nested functions
 **Only Call Hooks from React Functions**
 
 Call them from within React functional components and not just any regular JS function.
+
+## Tutorial - 4 - useState with object
+
+useState does not automatically merge and update the object. This is a key difference to setState which we come across in class variables. We have to do this manually using the spread operator.

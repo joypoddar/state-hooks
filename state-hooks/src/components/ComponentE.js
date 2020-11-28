@@ -1,18 +1,5 @@
-import React from "react";
-import ComponentF from "./ComponentF";
-
-function ComponentE() {
-  return (
-    <div>
-      <ComponentF />
-    </div>
-  );
-}
-
-export default ComponentE;
-
-/* import React, { useContext } from "react";
-import ComponentF from "./ComponentF";
+import React, { useContext } from "react";
+// import ComponentF from "./ComponentF";
 import { UserContext, ChannelContext } from "../App";
 
 function ComponentE() {
@@ -26,4 +13,4 @@ function ComponentE() {
   );
 }
 
-export default ComponentE; */
+export default ComponentE;

@@ -101,3 +101,35 @@ It is a close replacement for componentDidMount, componentDidUpdate and componen
 useEffect runs after every render.
 
 useEffect is placed inside the component
+
+## Tutorial - 8 - Conditionally run effects
+
+When the useEffect runs after every render can be a reason for performance issues. Here we look for ways to mediate that issue.
+
+## Tutorial - 18 - useReducer Hook
+
+useReducer is a hook that is used for state management
+
+It is an alternative to useState
+
+What's the difference?
+
+useState is built using useReducer
+
+When to use useReducer vs useState?
+
+### Hooks so far
+
+useState - state
+
+useEffect - side effects
+
+useContext - context API
+
+useReducer - reducers
+
+| reduce in JS                                       | useReducer in React                                          |
+| -------------------------------------------------- | ------------------------------------------------------------ |
+| array.**reduce(reducer,** initialValue)            | **useReducer(reducer,** initialState)                        |
+| singleValue = **reducer** (accumulator, itemValue) | newState = **reducer** (currentState, action)                |
+| **reduce** method returns a single value           | **useReducer** returns a pair of value, [newState, dispatch] |

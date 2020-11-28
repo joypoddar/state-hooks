@@ -133,3 +133,13 @@ useReducer - reducers
 | array.**reduce(reducer,** initialValue)            | **useReducer(reducer,** initialState)                        |
 | singleValue = **reducer** (accumulator, itemValue) | newState = **reducer** (currentState, action)                |
 | **reduce** method returns a single value           | **useReducer** returns a pair of value, [newState, dispatch] |
+
+## useState vs useReducer
+
+| Scenerio                    | useState                | useReducer             |
+| --------------------------- | ----------------------- | ---------------------- |
+| Type of state               | Number, String, Boolean | Object or Array        |
+| Number of state transitions | One or Two              | Too many               |
+| Related state transitions ? | No                      | Yes                    |
+| Business logic              | No business logic       | Complex business logic |
+| Local vs global             | Local                   | Global                 |

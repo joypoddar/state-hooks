@@ -118,16 +118,6 @@ useState is built using useReducer
 
 When to use useReducer vs useState?
 
-### Hooks so far
-
-useState - state
-
-useEffect - side effects
-
-useContext - context API
-
-useReducer - reducers
-
 | reduce in JS                                       | useReducer in React                                          |
 | -------------------------------------------------- | ------------------------------------------------------------ |
 | array.**reduce(reducer,** initialValue)            | **useReducer(reducer,** initialState)                        |
@@ -151,3 +141,26 @@ useMemo invokes the provided function and caches caches the value of the functio
 ## Tutorial - 29 - useRef Hook Part 2
 
 useRef hook can be used to create a generic container which can hold a mutable value similar to instance properties on a class component. This generic container does not cause rerenders when the data it stores changes. At the same time it also remembers its stored data even when other components causes its rerenders.
+
+## Tutorial - 30 - Custom Hooks
+
+### Hooks so far
+
+useState, useEffect, useContext, useReducer, useCallback, useMemo, useRef
+
+useState - state
+
+useEffect - side effects
+
+useContext - context API
+
+useReducer - reducers
+
+### Custom hooks
+
+A custom hook is basically a JS function whose name starts with 'use'
+A custom hook can also call other hooks if required
+
+Why?
+
+Share logic - Alternative to HOC's and Render Props

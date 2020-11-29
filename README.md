@@ -144,6 +144,10 @@ useReducer - reducers
 | Business logic              | No business logic       | Complex business logic |
 | Local vs global             | Local                   | Global                 |
 
-## Difference between useMemo and useCallback
+### Difference between useMemo and useCallback
 
 useMemo invokes the provided function and caches caches the value of the function whereas useCallback caches the provided function instance itself
+
+## Tutorial - 29 - useRef Hook Part 2
+
+useRef hook can be used to create a generic container which can hold a mutable value similar to instance properties on a class component. This generic container does not cause rerenders when the data it stores changes. At the same time it also remembers its stored data even when other components causes its rerenders.

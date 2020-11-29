@@ -143,3 +143,7 @@ useReducer - reducers
 | Related state transitions ? | No                      | Yes                    |
 | Business logic              | No business logic       | Complex business logic |
 | Local vs global             | Local                   | Global                 |
+
+## Difference between useMemo and useCallback
+
+useMemo invokes the provided function and caches caches the value of the function whereas useCallback caches the provided function instance itself
